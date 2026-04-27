@@ -1,0 +1,23 @@
+{
+    "name": "junandia/larawaba",
+    "description": "Simple WhatsApp Business SDK for Laravel applications.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Junandia\\Larawaba\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rismawan Junandia",
+            "email": "rismawan.email@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "illuminate/http": "^9.0|^10.0|^11.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    }
+}
